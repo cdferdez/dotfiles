@@ -1,5 +1,12 @@
 - clean: ['~']
 
+- clean:
+    ~/:
+        force: true
+    ~/.ssh:
+        force: true
+        recursive: true
+
 - link:
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
