@@ -83,7 +83,11 @@ colorscheme material
 " set number "
 set nocompatible
 filetype plugin on
+filetype plugin indent on
+set tabstop=4
+set expandtab
 
+" vim-pencil init "
 augroup pencil
 	autocmd!
 	autocmd FileType markdown,mkd call pencil#init()
