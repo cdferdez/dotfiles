@@ -69,6 +69,7 @@ call plug#begin()
 
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'junegunn/goyo.vim'
+Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/preservim/vim-pencil'
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
