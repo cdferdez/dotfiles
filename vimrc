@@ -82,7 +82,6 @@ call plug#end()
 colorscheme material
 
 " Enable additional settings "
-" set number "
 set nocompatible
 filetype plugin on
 filetype plugin indent on
