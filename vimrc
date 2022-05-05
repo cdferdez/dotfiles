@@ -75,6 +75,7 @@ Plug 'https://github.com/preservim/vim-pencil'
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'srcery-colors/srcery-vim'
 
 call plug#end()
 
