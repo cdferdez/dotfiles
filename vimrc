@@ -51,6 +51,7 @@ Plug 'mhinz/vim-signify'
 call plug#end()
 
 " Theme selection "
+let g:material_theme_style = 'ocean'
 colorscheme material
 
 " Enable additional settings "
