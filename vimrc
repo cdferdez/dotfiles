@@ -43,10 +43,17 @@ Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'srcery-colors/srcery-vim'
+
+" defx related plugins "
 Plug 'Shougo/defx.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+
+" for git diff highlighting "
 Plug 'mhinz/vim-signify'
+
+" coc for autocompletion "
+Plug 'neoclide/coc.nvim', {'branch': 'release'}       
 
 call plug#end()
 
