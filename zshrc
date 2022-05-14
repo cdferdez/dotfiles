@@ -60,4 +60,10 @@ prompt pure
 # zsh-syntax-highlighting
 source /opt/homebrew/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Setup fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Setup pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
