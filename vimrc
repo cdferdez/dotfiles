@@ -55,6 +55,10 @@ Plug 'mhinz/vim-signify'
 " coc for autocompletion "
 Plug 'neoclide/coc.nvim', {'branch': 'release'}       
 
+" jsx highlighting "
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()
 
 " Theme selection "
