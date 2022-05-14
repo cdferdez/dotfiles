@@ -1,15 +1,6 @@
 " Get the defaults that most users want.
 source $VIMRUNTIME/defaults.vim
 
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  " set backup		" keep a backup file (restore to previous version)
-  if has('persistent_undo')
-    " set undofile	" keep an undo file (undo changes after closing)
-  endif
-endif
-
 if &t_Co > 2 || has("gui_running")
   " Switch on highlighting the last used search pattern.
   set hlsearch
@@ -31,11 +22,6 @@ augroup END
 " loaded during initialization.
 if has('syntax') && has('eval')
   packadd! matchit
-endif
-
-" For Neovim 0.1.3 and 0.1.4 - https://github.com/neovim/neovim/pull/2198
-if (has('nvim'))
-  let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 endif
 
 " For Neovim > 0.1.5 and Vim > patch 7.4.1799 - https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162
