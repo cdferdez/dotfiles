@@ -46,6 +46,7 @@ Plug 'srcery-colors/srcery-vim'
 Plug 'Shougo/defx.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'mhinz/vim-signify'
 
 call plug#end()
 
@@ -66,6 +67,9 @@ augroup pencil
 	autocmd FileType markdown,mkd call pencil#init()
 	autocmd FileType text call pencil#init()
 augroup END
+
+" vim-signify settings "
+set updatetime=100
 
 " Custom Keybindings "
 nnoremap <C-n> :Defx
