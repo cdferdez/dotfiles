@@ -43,6 +43,9 @@ Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'srcery-colors/srcery-vim'
+Plug 'Shougo/defx.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 
 call plug#end()
 
@@ -63,3 +66,6 @@ augroup pencil
 	autocmd FileType markdown,mkd call pencil#init()
 	autocmd FileType text call pencil#init()
 augroup END
+
+" Custom Keybindings "
+nnoremap <C-n> :Defx
