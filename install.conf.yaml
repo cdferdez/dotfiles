@@ -18,4 +18,4 @@
     ~/.vimrc: vimrc
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
-    ~/.config/coc/extensions/package.json: coc.json
+    ~/.config/coc/extensions/package.json: coc-package.json
