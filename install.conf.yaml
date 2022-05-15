@@ -8,6 +8,8 @@
         recursive: true
     ~/.config/coc/extensions/:
         force: true
+    ~/.vim/:
+        force: true
 
 - link:
     ~/.bashrc: bashrc
@@ -19,3 +21,4 @@
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.config/coc/extensions/package.json: coc-package.json
+    ~/.vim/coc-settings.json: coc-settings.json
