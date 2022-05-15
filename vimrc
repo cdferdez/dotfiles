@@ -60,6 +60,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" autopairing "
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 
 " Theme selection "
