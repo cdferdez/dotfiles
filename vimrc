@@ -87,6 +87,7 @@ set updatetime=100
 " Keybindings "
 nnoremap <C-n> :Defx
 
+" defx setup "
 autocmd FileType defx call s:defx_my_settings()
 function! s:defx_my_settings() abort
   " Define mappings
