@@ -85,7 +85,7 @@ augroup END
 set updatetime=100
 
 " Keybindings "
-nnoremap <C-n> :Defx
+nnoremap <C-n> :Defx<CR>
 
 " defx setup "
 autocmd FileType defx call s:defx_my_settings()
