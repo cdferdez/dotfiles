@@ -48,6 +48,7 @@ Plug 'srcery-colors/srcery-vim'
 Plug 'Shougo/defx.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'kristijanhusak/defx-icons'
 
 " for git diff highlighting "
 Plug 'mhinz/vim-signify'
@@ -120,3 +121,14 @@ function! s:defx_my_settings() abort
   nnoremap <silent><buffer><expr> <C-g> defx#do_action('print')
   nnoremap <silent><buffer><expr> cd defx#do_action('change_vim_cwd')
 endfunction
+
+call defx#custom#option('_', {
+       \ 'winwidth': 30,
+       \ 'split': 'vertical',
+       \ 'direction': 'topleft',
+       \ 'show_ignored_files': 0,
+       \ 'buffer_name': 'defxplorer',
+       \ 'toggle': 1,
+       \ 'columns': 'icons:filename',
+       \ 'resume': 1,
+       \ })
