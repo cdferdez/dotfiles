@@ -73,6 +73,7 @@ filetype plugin indent on
 set tabstop=4
 set expandtab
 set number
+set shiftwidth=0
 
 " vim-pencil init "
 augroup pencil
