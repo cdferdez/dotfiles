@@ -6,6 +6,8 @@
     ~/.ssh:
         force: true
         recursive: true
+    ~/.config/coc/extensions/:
+        force: true
 
 - link:
     ~/.bashrc: bashrc
@@ -16,5 +18,4 @@
     ~/.vimrc: vimrc
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
-
-
+    ~/.config/coc/extensions/package.json: coc.json
