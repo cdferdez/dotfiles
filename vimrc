@@ -83,7 +83,7 @@ augroup END
 " vim-signify settings "
 set updatetime=100
 
-" defx setup "
+" Keybindings "
 nnoremap <C-n> :Defx
 
 autocmd FileType defx call s:defx_my_settings()
