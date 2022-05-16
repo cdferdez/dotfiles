@@ -80,6 +80,7 @@ set tabstop=4
 set expandtab
 set number
 set shiftwidth=0
+set backspace=indent,eol,start
 
 " vim-pencil init "
 augroup pencil
