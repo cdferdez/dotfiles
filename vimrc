@@ -63,6 +63,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 " autopairing "
 Plug 'jiangmiao/auto-pairs'
 
+" emmet "
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 " Theme selection "
@@ -100,6 +103,9 @@ endif
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
 endif
+
+" emmet mappings "
+let g:user_emmet_leader_key=','
 
 " Keybindings "
 nnoremap <C-n> :Defx<CR>
