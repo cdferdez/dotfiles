@@ -117,6 +117,7 @@ let g:closetag_shortcut = '>'
 
 " Keybindings "
 nnoremap <C-n> :Defx<CR>
+nnoremap ,f :GFiles<CR>
 
 " defx setup "
 autocmd FileType defx call s:defx_my_settings()
