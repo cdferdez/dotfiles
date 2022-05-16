@@ -60,11 +60,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 
-" autopairing "
+" autopairing for parenthesis and the like "
 Plug 'jiangmiao/auto-pairs'
 
-" emmet "
+" emmet for tag creation "
 Plug 'mattn/emmet-vim'
+
+" vim-closetag for newline on indent "
+Plug 'alvan/vim-closetag'
 
 call plug#end()
 
@@ -107,6 +110,10 @@ endif
 
 " emmet mappings "
 let g:user_emmet_leader_key=','
+
+" vim-closetag settings "
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js'
+let g:closetag_shortcut = '>'
 
 " Keybindings "
 nnoremap <C-n> :Defx<CR>
