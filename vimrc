@@ -69,6 +69,8 @@ Plug 'mattn/emmet-vim'
 " vim-closetag for newline on indent "
 Plug 'alvan/vim-closetag'
 
+Plug 'ap/vim-css-color'
+
 call plug#end()
 
 " Theme selection "
