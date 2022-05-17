@@ -71,6 +71,10 @@ Plug 'alvan/vim-closetag'
 
 Plug 'ap/vim-css-color'
 
+" statusline customization "
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 " Theme selection "
@@ -86,7 +90,6 @@ set expandtab
 set number
 set shiftwidth=0
 set backspace=indent,eol,start
-set laststatus=2
 
 " vim-pencil init "
 augroup pencil
@@ -117,6 +120,10 @@ let g:user_emmet_leader_key=','
 " vim-closetag settings "
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js'
 let g:closetag_shortcut = '>'
+
+" airline settings "
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline_theme='zenburn'
 
 " Keybindings "
 nnoremap <C-n> :Defx<CR>
