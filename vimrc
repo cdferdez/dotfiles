@@ -75,6 +75,9 @@ Plug 'ap/vim-css-color'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" toggle-cursor plugin "
+Plug 'jszakmeister/vim-togglecursor'
+
 call plug#end()
 
 " Theme selection "
@@ -124,6 +127,10 @@ let g:closetag_shortcut = '>'
 " airline settings "
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_theme='zenburn'
+
+" vim-togglecursor settings "
+let g:togglecursor_default = "blinking_underline" 
+let g:togglecursor_leave = "blinking_underline"
 
 " Keybindings "
 nnoremap <C-n> :Defx<CR>
