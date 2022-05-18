@@ -93,6 +93,7 @@ set expandtab
 set number
 set shiftwidth=0
 set backspace=indent,eol,start
+set autoindent
 
 " vim-pencil init "
 augroup pencil
