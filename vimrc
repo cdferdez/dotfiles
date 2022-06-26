@@ -102,6 +102,9 @@ augroup pencil
 	autocmd FileType text call pencil#init()
 augroup END
 
+" vim-markdown settings "
+let g:vim_markdown_folding_disabled = 1
+
 " vim-signify settings "
 set updatetime=100
 
