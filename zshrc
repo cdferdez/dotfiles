@@ -53,6 +53,7 @@ source $ZSH/oh-my-zsh.sh
 alias v="vim"
 alias tm="tmux"
 alias py="python"
+alias lb="logbook"
 
 # pure prompt
 fpath+="$HOME/.zsh/pure"
