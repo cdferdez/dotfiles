@@ -54,6 +54,7 @@ alias v="vim"
 alias tm="tmux"
 alias py="python"
 alias lb="logbook"
+alias cdf="cd ~ && cd \$(find * -type d | fzf)"
 
 # pure prompt
 fpath+="$HOME/.zsh/pure"
