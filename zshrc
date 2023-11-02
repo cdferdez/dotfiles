@@ -5,6 +5,8 @@ export PATH="$PATH:$HOME/Code/cdferdez/util/bin"
 export MODULAR_HOME="/Users/cdferdez/.modular"
 export PATH="/Users/cdferdez/.modular/pkg/packages.modular.com_mojo/bin:$PATH"
 export PATH="/Users/cdferdez/Code/apache-maven-3.9.5/bin:$PATH"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.config/.oh-my-zsh"
